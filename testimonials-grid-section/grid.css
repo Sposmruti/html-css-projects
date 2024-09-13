@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 30px;
+    max-width: 1200px;
+}
+.testimonials-section{
+    display: grid;
+    gap: 30px;
+    
+}
+.testimonials-section0{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 30px;
+   
+}
+.testimonials-section1{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 30px;
+   
+}
+
+.testimonials1, .testimonials2, .testimonials3, .testimonials4, .testimonials5 {
+    padding: 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials1 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    
+}
+
+.testimonials2 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+.testimonials3 {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+    
+}
+
+.testimonials4 {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.testimonials5 {
+    background-color: white;
+    color: hsl(218, 16%, 30%);
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.bio h5, .bio h6 {
+    margin: 0;
+}
+
+.bio h6 {
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px ;
+}
+
+p {
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 0;
+}

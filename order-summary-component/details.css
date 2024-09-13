@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display' , sans-serif;
+    background-image: url(icon/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Summary-container{
+    background-color: white;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.illustration-hero{
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 45px;
+    
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    text-shadow: 0 0 2px hsl(223, 47%, 23%);
+}
+.about,
+.Proceed{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    
+}
+.Plan-details{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+.icon-music{
+    height: 51px;
+    width: 50px;
+}
+h2{
+    font-size: 17px;
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+    text-shadow: 0 0 1px hsl(223, 47%, 23%);
+}
+.Plan{
+    font-size: 17px;
+    line-height: 2.1;
+    color: hsl(224, 23%, 55%);
+       
+}
+.Change{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%); 
+    text-decoration: underline;
+    margin-left: 70px;
+    cursor: pointer;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 10px 20px  rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.Proceed{
+    cursor: pointer;
+}
+.Change:hover,
+button:hover{
+    opacity: 0.7;
+   text-decoration: none;
+}
+.Proceed:hover{
+    color: hsl(223, 47%, 23%);
+    text-shadow: 0 0 2px hsl(223, 47%, 23%);
+}

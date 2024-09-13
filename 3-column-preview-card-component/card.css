@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.card-container{
+    display: flex;
+    max-width: 700px;
+      
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 45px;
+}
+.card1 button {
+    color: hsl(31, 77%, 52%); 
+ }
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+}
+.card2 button{
+    color: hsl(184, 100%, 22%);
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 45px;
+}
+.card3 button{
+    color: hsl(179, 100%, 13%);
+    
+}
+img{
+    height: 30px;
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 25px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+}
+p{
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+}
+button{
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-bottom: -17px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
