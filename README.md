@@ -1,4 +1,4 @@
-HTML-CSS Projects
+# HTML-CSS Projects
 Here is a collection of all my HTML-CSS projects, along with a brief description and live demo links for each.
 
 1. **3-Column Preview Card Component** - A responsive three-column card layout using HTML and CSS.  
